@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Typescript, Javascript, Go and Ruby. </b>
+                <b className="purple"> Typescript, Javascript, Go, Ruby and Java. </b>
               </i>
               <br />
               <br />
@@ -49,7 +49,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Express.js, Nest.js, React.js, Next.js and Remix.js</b>
+                <b className="purple"> Express.js, Nest.js, Spring boot, React.js, Next.js and Remix.js</b>
               </i>
             </p>
           </Col>
