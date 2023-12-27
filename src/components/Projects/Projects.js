@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Type from "../Home/Type";
+import Typewriter from "typewriter-effect";
 
 function Projects() {
   return (
@@ -20,8 +22,19 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        <Typewriter
+          options={{
+            strings: [
+              "Updating . . ."
+            ],
+            autoStart: true,
+            loop: true,
+            deleteSpeed: 20,
+          }}
+        />
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -86,7 +99,7 @@ function Projects() {
               ghLink="#"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

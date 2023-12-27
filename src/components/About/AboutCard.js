@@ -11,11 +11,14 @@ function AboutCard() {
             Hi Everyone, My fullname is
             <span className="purple"> Tran Van Binh </span>
             from<span className="purple"> Ha Noi, VietNam.</span>
-            <br/>
-            <br /><ImArrowRight2 />  I am currently employed as a software developer at
+            <br />
+            <br />
+            <ImArrowRight2 /> I am currently employed as a software developer at
             <span className="purple"> Imocha-Alpha.</span>
-            <br /><ImArrowRight2 />  I have completed Control and Automation Engineering
-            Technology at HaNoi university of Industry ( GPA 3.3/4 ).
+            <br />
+            <ImArrowRight2 /> I have completed Control and Automation
+            Engineering Technology at HaNoi university of Industry ( GPA 3.3/4
+            ).
             <a
               className="purple"
               style={{ textDecoration: "none" }}
@@ -24,7 +27,8 @@ function AboutCard() {
               {" "}
               ( Here ){" "}
             </a>
-            <br /><ImArrowRight2 />  Udacity Nanodegree Program - Cloud Developer
+            <br />
+            <ImArrowRight2 /> Udacity Nanodegree Program - Cloud Developer
             <a
               className="purple"
               style={{ textDecoration: "none" }}
@@ -33,7 +37,8 @@ function AboutCard() {
               {" "}
               ( Here ){" "}
             </a>
-            <br />   <ImArrowRight2 />  Udacity Nanodegree Program - Data Structures & Algorithms
+            <br /> <ImArrowRight2 /> Udacity Nanodegree Program - Data
+            Structures & Algorithms
             <a
               className="purple"
               style={{ textDecoration: "none" }}
@@ -42,7 +47,9 @@ function AboutCard() {
               {" "}
               ( Here ){" "}
             </a>
-            <br />   <ImArrowRight2 />  Certified Professional Scrum Master I (PSM I) by Scrum.org, achieved Sep 29, 2022. - typing: binhlinh473@gmail.com
+            <br /> <ImArrowRight2 /> Certified Professional Scrum Master I (PSM
+            I) by Scrum.org, achieved Sep 29, 2022. - typing:
+            binhlinh473@gmail.com
             <a
               className="purple"
               style={{ textDecoration: "none" }}
@@ -51,7 +58,6 @@ function AboutCard() {
               {" "}
               ( Here ){" "}
             </a>
-          
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -67,11 +73,12 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "If you don’t walk today. You”ll have to to run tomorrow!"{" "}
+          <br></br>
+          <p style={{ color: "rgb(155 126 172)" , fontSize: '22px'}}>
+            "If you want to sit where nobody can sit, you must endure the feeling that
+            nobody can't endure"{" "}
           </p>
-          <footer className="blockquote-footer">Binh Tran</footer>
+          <footer className="blockquote-footer">MTP </footer> 
         </blockquote>
       </Card.Body>
     </Card>

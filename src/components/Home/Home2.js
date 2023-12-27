@@ -6,7 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiFillFacebook
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -20,12 +20,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Full-stack web developer with almost 3 years of professional
+              experience in the latest technologies inHealthcare, E Commerce and
+              Banking 🤷‍♂️
               <br />
+              <br />
+              Good communication, reading, and understanding well documented
+              material in English. Proactivelycommunicate with customers to get
+              their expectations and finish it.Experience working with the agile
+              and scrum principles.
+              <br />
+              <br />
+              Excellent command in software design using OOP family
+              methodologies and design patterns.
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Typescript, Javascript, Go, Ruby and Java. </b>
+                <b className="purple">
+                  {" "}
+                  Typescript, Javascript, Go, Ruby and Java.{" "}
+                </b>
               </i>
               <br />
               <br />
@@ -33,9 +46,7 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Banking and Healthcare.
-                </b>
+                <b className="purple">Banking, E-commerce and Healthcare.</b>
               </i>
               <br />
               <br />
@@ -49,7 +60,11 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Express.js, Nest.js, Spring boot, React.js, Next.js and Remix.js</b>
+                <b className="purple">
+                  {" "}
+                  Express.js, Nest.js, Spring boot, Ruby on Rails, React.js,
+                  Next.js and Remix.js
+                </b>
               </i>
             </p>
           </Col>

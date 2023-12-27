@@ -1,12 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiTypescript } from "react-icons/si";
+import { SiAmazonaws, SiDocker, SiElasticsearch, SiGithub, SiGrafana, SiKubernetes, SiPrisma, SiPrometheus, SiRubyonrails, SiSpring, SiTypescript } from "react-icons/si";
+import { BiLogoSpringBoot } from "react-icons/bi";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiGit,
+  DiJava,
+  DiRuby,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -27,22 +30,49 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpring />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiRuby />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRubyonrails />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiPrisma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -54,7 +84,13 @@ function Techstack() {
         <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiElasticsearch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrometheus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGrafana />
       </Col>
     </Row>
   );
