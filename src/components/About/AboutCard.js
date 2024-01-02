@@ -76,7 +76,7 @@ function AboutCard() {
           <br></br>
           <p style={{ color: "rgb(155 126 172)" , fontSize: '22px'}}>
             "If you want to sit where nobody can sit, you must endure the feeling that
-            nobody can't endure"{" "}
+            nobody can endure"{" "}
           </p>
           <footer className="blockquote-footer">MTP </footer> 
         </blockquote>
