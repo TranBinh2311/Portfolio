@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { SiAmazonaws, SiDocker, SiElasticsearch, SiGithub, SiGrafana, SiKubernetes, SiPrisma, SiPrometheus, SiRubyonrails, SiSpring, SiTypescript } from "react-icons/si";
-import { BiLogoSpringBoot } from "react-icons/bi";
 import {
   DiJavascript1,
   DiReact,
@@ -15,7 +14,6 @@ import {
   SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
