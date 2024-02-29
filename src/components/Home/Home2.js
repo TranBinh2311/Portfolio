@@ -18,7 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Full-stack web developer with almost 3 years of professional
+              Full-stack web developer with almost 4 years of professional
               experience in the latest technologies inHealthcare, E Commerce and
               Banking 🤷‍♂️
               <br />
